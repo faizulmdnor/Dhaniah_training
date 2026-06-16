@@ -12,3 +12,15 @@ while i < len(a):
 
         j += 1
     i += 1
+
+names = [['Hamzah', 'Nur Ramadhaniah', 'Siti Hawa', 'Siti Khadijah'],
+        ['Hani Soffiah', 'Hani Dalilah', 'Ain Hanani'],
+        ['Abdul Rahman', 'Muaz', 'Safiyah', 'Ramadhan']]
+
+count = 0
+for n in range(len(names)):
+    for m in range(len(names[n])):
+        print(names[n][m], n, m)
+        count += 1
+
+print(f"Total Names: {count}")
