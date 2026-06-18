@@ -1,3 +1,24 @@
+"""
+Penerangan Jelas Tentang Penggunaan Function
+Apa itu function?
+Function ialah satu blok kod yang:
+    mempunyai nama
+    boleh menerima parameter
+    menjalankan tugas tertentu
+    boleh memulangkan nilai
+Ia membolehkan kita ulang guna kod tanpa perlu tulis semula.
+
+Kenapa kita guna function?
+    Kod lebih kemas
+        Daripada tulis operasi tambah, darab, tolak, bahagi berulang kali, kita hanya panggil function.
+    Mudah diselenggara
+        Kalau nak ubah cara pengiraan, ubah dalam function sahaja.
+    Elak kesilapan
+        Kod yang sama tidak perlu ditaip banyak kali.
+    Boleh digunakan semula
+        Function boleh dipanggil banyak kali dengan nilai berbeza.
+"""
+
 # Import library pandas (walaupun tidak digunakan dalam contoh ini)
 import pandas as pd
 
